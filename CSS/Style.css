@@ -4,12 +4,10 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
-    background-color: grey;
 }
 
 .Navbar{
-    background-color: grey;
-    text-decoration: none;
+    background-color: white;
 }
 
 a{
@@ -24,12 +22,48 @@ a{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Links a{
+    text-decoration: none;
 }
 
 .Image-Header{
     border-radius: 10px;
     vertical-align: top;
     object-position: 0 bottom;
+}
+
+.Title{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Container h2{
+    text-align: center;
+}
+
+.Container p , li{
+    font-size: 18px;
+}
+
+#Icon-1{
+    height: 150px;
+    width: 150px;
+    margin-left: -250px;
+}
+
+#Icon-2{
+    height: 180px;
+    width: 250px;
+    margin-top: -200px;
+    margin-left: 250px;
+}
+
+.Image{
+    margin: 0px 350px 0px 350px;
 }
 
 .Information h1 , h2{
@@ -40,12 +74,62 @@ a{
     margin: 0px 260px 0px 260px;
 }
 
+.Forms label{
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Forms input , select , textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.Forms button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Forms a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Gallery{
+    margin: 20px 80px 80px 40px;
+    box-shadow: 0px 4px 8px 0px lightslategray;
+    float: left;
+    width: 350px;
+}
+
+.Gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.Gallery:hover{
+    border: 1px solid lightslategray;
+    transform: rotate(-3deg);
+}
+
 .Footer{
     text-align: center;
+    font-size: 24px;
 }
 
 .Footer a{
     font-weight: bold;
+    color: black;
 }
 
 
