@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}
+
+.Navbar{
+    background-color: grey;
+    text-decoration: none;
+}
+
+a{
+    display: inline-block;
+    padding:  8px;
+    text-align: center;
+    width: 100%;
+}
+
+.Links{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Image-Header{
+    border-radius: 10px;
+    vertical-align: top;
+    object-position: 0 bottom;
+}
+
+.Information h1 , h2{
+    text-align: center;
+}
+
+.Famous-Phrase video{
+    margin: 0px 260px 0px 260px;
+}
+
+.Footer{
+    text-align: center;
+}
+
+.Footer a{
+    font-weight: bold;
+}
+
+
