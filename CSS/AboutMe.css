@@ -1,0 +1,78 @@
+  *{
+      box-sizing: border-box;
+  }
+
+  .Container{
+    font-family: "Roboto", sans-serif;
+    border: 4px dashed #E0E0E0;
+    padding: 25px 25px;
+  }
+  
+  .Container h2 {
+    text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 2px #808B96;
+  }
+  
+  .Container ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .Container p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 25px 20px;
+    overflow-x: hidden;
+    line-height: 1.5;
+  }
+
+  .Goals{
+    border: 4px dotted #839192;
+    padding: 20px 30px;
+    margin: 30px 20px;
+  }
+
+  .Container-Images{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Image-1{
+    width: 300px;
+    height: 600px;
+    margin-right: 10px;
+    box-shadow: 0px 1px 2px 0px #B3B6B7;
+  }
+
+  .Image-2{
+    width: 700px;
+    height: 600px;
+    margin-left: 10px;
+    box-shadow: 0px 1px 2px 0px #B3B6B7;
+  }
+
+  .Icon-1{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .Icon-2{
+    height: 200px;
+    width: 200px;
+  }
+
+  .ByLine{
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    height: 600px;
+  }
+

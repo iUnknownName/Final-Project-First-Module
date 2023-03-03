@@ -1,0 +1,17 @@
+.Gallery {
+    margin: 20px 80px 80px 40px;
+    box-shadow: 0px 4px 8px 0px lightslategray;
+    float: left;
+    width: 350px;
+  }
+  
+  .Gallery img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  
+  .Gallery:hover {
+    border: 1px solid lightslategray;
+    transform: rotate(-3deg);
+  }
