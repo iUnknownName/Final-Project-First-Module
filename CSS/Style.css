@@ -1,135 +1,67 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-.body{
-    font-family: 'Roboto', sans-serif;
-}
-
-.Navbar{
-    background-color: white;
-}
-
-a{
-    display: inline-block;
-    padding:  8px;
-    text-align: center;
+header{
     width: 100%;
+    background-color: #E5E7E9 ;
+    text-align: center;
+    padding: 25px 0;
+    font-family: "Roboto", sans-serif;
 }
 
-.Links{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    font-size: 24px;
-    font-weight: bold;
+.body {
+  background-color: #fff;
+  overflow-x: hidden;
+  line-height: 1.5;
 }
 
-.Links a{
-    text-decoration: none;
-}
-
-.Image-Header{
-    border-radius: 10px;
-    vertical-align: top;
-    object-position: 0 bottom;
-}
-
-.Title{
+.Title {
     margin-top: 5%;
     text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 2px #808B96;
+  }
+
+ul{
+  list-style: none;
 }
 
-.Container h2{
-    text-align: center;
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 15px;
+  text-align: center;
+  width: 100%;
+  color: #000000;
+  border-radius: 15px;
 }
 
-.Container p , li{
-    font-size: 18px;
-}
-
-#Icon-1{
-    height: 150px;
-    width: 150px;
-    margin-left: -250px;
-}
-
-#Icon-2{
-    height: 180px;
-    width: 250px;
-    margin-top: -200px;
-    margin-left: 250px;
-}
-
-.Image{
-    margin: 0px 350px 0px 350px;
-}
-
-.Information h1 , h2{
-    text-align: center;
-}
-
-.Famous-Phrase video{
-    margin: 0px 260px 0px 260px;
-}
-
-.Forms label{
-    display: block;
+.Links a:hover{
+    background-color: #fff;
+    color: #34495E;
     font-weight: bold;
-    font-size: 24px;
-    text-align: center;
 }
 
-.Forms input , select , textarea{
-    width: 100%;
-    padding: 10px;
-    border: 1px solid;
-    border-radius: 5%;
-    box-sizing: border-box;
-    font-size: 16px;
+.Links {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #808B96;
 }
 
-.Forms button{
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
+li {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
-.Forms a{
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
+li:hover {
+  color: #283593;
+  font-weight: bold;
 }
-
-.Gallery{
-    margin: 20px 80px 80px 40px;
-    box-shadow: 0px 4px 8px 0px lightslategray;
-    float: left;
-    width: 350px;
-}
-
-.Gallery img{
-    width: 100%;
-    height: auto;
-}
-
-.Gallery:hover{
-    border: 1px solid lightslategray;
-    transform: rotate(-3deg);
-}
-
-.Footer{
-    text-align: center;
-    font-size: 24px;
-}
-
-.Footer a{
-    font-weight: bold;
-    color: black;
-}
-
-

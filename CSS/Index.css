@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+
+img{
+    float: left;
+    margin: 10px 30px 10px 30px;
+    height: 1215px;
+    width: 400px;
+}
+
+.General-Block{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    bottom: 15%;
+    padding: 25px 20px;
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+.Information h1 , h2{
+    text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 2px #808B96;
+}
+
+.Famous-Phrase p{
+    padding: 25px;
+    border: 5px solid #566573;
+}
+
+.Video{
+    position: relative;
+    left: 250px;
+}
+
+#Footer img{
+    background-size: cover;
+    background-position: bottom center;
+    height: 600px;
+    width: 100%;
+    z-index: 0;
+}
+
+#Footer .Content p {
+
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 32px;
+    position: relative;
+    bottom: 500px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#Bibliography{
+    z-index: 1;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #33691E;
+}

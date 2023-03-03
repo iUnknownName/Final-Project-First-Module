@@ -11,10 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../CSS/Style.css" />
+    <link rel="stylesheet" href="../CSS/ContactUs.css">
+    <link rel="Icon" href="../Icons/Technology.png">
     <title>Contact Us</title>
   </head>
   <header>
-    <nav class="Navbar">
+    <nav>
       <div class="Links">
         <a
           href="file:///C:/Users/USUARIO/Music/Datos/Ada/First%20Final%20Project/HTML/Index.html"
@@ -34,34 +36,40 @@
         >
       </div>
     </nav>
-    <div class="Image-Header">
-      <img
-        src="../Images/AI.jfif"
-        alt="ArtificialIntelligence"
-        width="1530"
-        height="350"
-      />
-    </div>
   </header>
+  <br>
+  <br>
   <body>
+    <div class="Content">
+    <div class="Header-Video">
+      <video src="../Videos/Contact.mp4" autoplay muted loop></video>
+    </div>
+      <div class="Overlay"></div>
     <div class="Forms">
       <h2>Fill out this form to contact you</h2>
       <br>
       <form action="#" method="post">
 
       <label for="Name">Enter your Name:</label>
+      <br>
       <input type="text" name="Name" id="Name" />
+      <br>
       <br>
 
       <label for="Email"> Enter you Email:</label>
+      <br>
       <input type="text" name="Email" id="Email" />
+      <br>
       <br>
 
       <label for="PhoneNumber">Enter your Phone Number:</label>
-      <input type="number" name="PhoneNumber" id="PhoneNumber" />
+      <br>
+      <input type="tel" name="PhoneNumber" id="PhoneNumber" />
+      <br>
       <br>
 
       <label for="City">What city are you:</label>
+      <br>
       <select name="City" id="City">
         <option value="Armenia">Armenia</option>
         <option value="Medellin">Medellin</option>
@@ -76,17 +84,22 @@
       <h2>Why do you want to contact me?</h2>
       <br>
       <label for="Consultancy">Consultancy?</label>
+      <br>
         <input type="checkbox" name="Consultancy" id="Consultancy" value="Yes" />
       <br>
       <label for="Questions">Questions?</label>
+      <br>
         <input type="checkbox" name="Questions" id="Questions" value="Yes">
       <br>
-      <label for="Work">Work with us?/label>
+      <label for="Work">Work with us?</label>
+      <br>
         <input type="checkbox" name="Work" id="Work" value="Yes">
+      <br>
       <br>
       <label for="Other">Other</label>
       <br>
       <textarea name="Other" id="Other" cols="10" rows="10">Tell us why you contact us</textarea>
+      <br>
       <br>
 
       <label for="You">How much of you:</label>
@@ -96,8 +109,9 @@
       <br>
 
       <button type="submit">Send Form</button>
-      <a href="www.gmail.com">Send Email to: felipebarbosa@adaedu.com.co</a>
-    </div>
+      <a id="Email" href="www.gmail.com">Send Email to: felipebarbosa@adaedu.com.co</a>
 </form>
+</div>
+</div>
   </body>
 </html>
